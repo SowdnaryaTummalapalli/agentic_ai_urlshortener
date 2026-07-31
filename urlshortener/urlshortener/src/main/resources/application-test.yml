@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: url-shortener
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+
+logging:
+  level:
+    root: WARN
+    agentic_ai.urlshortener: DEBUG
+
+server:
+  port: 0
+
